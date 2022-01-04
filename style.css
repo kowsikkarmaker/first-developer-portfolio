@@ -65,11 +65,28 @@ h1{
 .Experiences-area > .write{
     width: 35%;
     margin-left:80px;
-
+    border-radius: 10px;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
     padding-left: 20px;
     padding-bottom: 100px;
     box-shadow: 10px 10px 40px gray;
 }
 .header1{
     font-size: 38px;
+}
+#ful-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, rgb(180, 10, 202));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
